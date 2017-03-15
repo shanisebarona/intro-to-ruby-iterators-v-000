@@ -29,7 +29,7 @@ What if we want to output the phrase only *until* our little brother calls out "
 
 ```ruby
 input = ""
-while input != "Mommmm!!"
+until input != "Mommmm!!"
   puts "Stop hitting yourself!"
   input = gets.chomp
 end
